@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #7BC9FF;
+}
+.heading{
+    text-align: center;
+    color : #1C1678;
+    font-size: 84px;
+    font-family:  'Lobster', cursive;
+    font-weight: bold;
+}
+.layout{
+    margin: 24px 0;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    flex-direction: column;
+}
+.player{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 36px;
+    color: #1C1678;
+}
+.dice{
+    display: flex;
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 25vh;
+    align-items: center;
+    justify-content: space-evenly
+}
+.dicey{
+    width: 96px;
+    height: 96px;
+    /* border: 2px solid black; */
+    background-color: rgb(144, 13, 13);
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    /* border: 2px solid yellow; */
+    margin:  0 30vw;
+}
+
+.dot{
+    justify-self: center;
+    align-self: center;
+    border-radius: 50%;
+    width:12px;
+    height:12px;
+    background-color: white;
+    margin: 10px;
+}
+footer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: right;;
+    align-items: center;
+    /* border: 2px solid white; */
+    
+    font-family:cursive;
+
+}
+span{
+    margin: 0 30px;
+    color: white;
+    font-family:cursive;
+    font-size: 18px;
+
+}
+
+#hideme{
+    visibility : hidden;
+}
+
